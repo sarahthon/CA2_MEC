@@ -252,8 +252,8 @@ def distance_to_boundary(data, clf, labels=None, class_i=0):
 def relative_feature_importance(w):
     """
     Being parallel to the normal is the same as being
-    orthogonal to the hyper-plane, and vice versa. 
-    (wrt. hyperplane) Orthogonality => important, parallel => unimportant. 
+    orthogonal to the hyper-plane, and vice versa.
+    (wrt. hyperplane) Orthogonality => important, parallel => unimportant.
     Hence, high values of w => parallel => orthogonal hyperplane => important.
     And, therefore, low values => unimportant.
 
