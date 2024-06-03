@@ -5,7 +5,7 @@ import tqdm
 
 
 def Xy_trial(
-    spikes, tracking, categories_to_include, input_dim, window_size=0.1, res=10
+    spikes, tracking, categories_to_include, input_dim, include_actions, window_size=0.1, res=10
 ):
     """
     Creates design matrix X, and label vector y from spikes, tracking and labels (meta data).
